@@ -26,6 +26,23 @@
 			
 		}
 	}
+	
+	class subject{
+		char subcode;
+		String subject;
+		String teacher;
+		
+		void setDetailsTeacher(char sc, String s, String t) {
+			subcode=sc;
+			subject=s;
+			teacher=t;
+		}
+		void showDetailsTeacher(){
+			System.out.println("Subcode:       "+subcode);
+			System.out.println("Subject:       "+subject);
+			System.out.println("Teacher:       "+teacher);
+		}
+	}
 
 public class assignment {
 	
@@ -48,6 +65,8 @@ public class assignment {
 		student2.setDetailsOfStudent("Ronaldo", "ronaldo@Email.com", 8968849114l, 20, "BCA", 24);
 		student3.setDetailsOfStudent("Dheeradj", "Email", 8968849114l, 20, "BCA", 24);
 		student1.showDetailsOfStudent();
+		student2.showDetailsOfStudent();
+		student3.showDetailsOfStudent();
 	
 	}
 
