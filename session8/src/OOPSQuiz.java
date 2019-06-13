@@ -44,13 +44,13 @@ public class OOPSQuiz {
 		
 		c2.incrementCount();
 		
-		//Counter c4 = new Counter();
+		Counter c4 = new Counter();
 		
 		
 		c1.showCounter();
 		c2.showCounter();
 		c3.showCounter();
-		//c4.showCounter();
+		c4.showCounter();
 	}
 
 }
