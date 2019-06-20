@@ -122,6 +122,11 @@ public class StringMethods {
 		System.out.println(">> Spaces found "+count+" times");
 	
 		
+		
+		int ln = dj.length();
+		System.out.println(">> names is "+ln+" characters wide");
+		System.out.println("Characters without space is: "+(ln-count));
+		
 	}
 	
 	
