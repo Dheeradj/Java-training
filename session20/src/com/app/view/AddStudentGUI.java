@@ -15,7 +15,7 @@ import com.app.controller.DBHelper;
 import com.app.model.Student;
 
 public class AddStudentGUI implements ActionListener {
-
+ 
 	JFrame fr;
 	JPanel pnlTitle, pnlName,  pnlEmail, pnlCourse, pnlButton, pnlAll;
 	JLabel lblTitle, lblName,  lblEmail, lblCourse;
@@ -32,7 +32,7 @@ public class AddStudentGUI implements ActionListener {
 		pnlButton = new JPanel();
 		pnlAll = new JPanel();
 		
-		
+		 
 		lblTitle = new JLabel("Enter Student Details");
 		
 		lblName = new JLabel();

@@ -5,12 +5,12 @@ public class Student {
 	public String name;
 	public String email;
 	public String course;
-	
+	 
 	
 	public Student() {
-		// TODO Auto-generated constructor stub
-	}
-
+		// TODO Auto-gen erated constructor stub
+	} 
+ 
 
 	public Student(int rollno, String name, String email, String course) {
 		this.rollno = rollno;

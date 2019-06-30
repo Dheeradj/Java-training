@@ -14,7 +14,7 @@ public class DBHelper {
 	Connection con;
 	Statement stmt;
 	
-	public DBHelper() {
+	public DBHelper() { 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("1. Driver loaded");
