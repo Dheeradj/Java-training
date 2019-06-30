@@ -1,5 +1,7 @@
 package com.auribises;
 
+
+
 class MyInteger{// extends Object{
 	
 	int x;
@@ -17,7 +19,7 @@ class MyInteger{// extends Object{
 	}
 }
 
-public class ObjectClasses {
+public class ObjectClass {
 
 	public static void main(String[] args) {
 		
